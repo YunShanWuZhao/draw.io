@@ -4,26 +4,68 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-10" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="100" width="210" height="200" as="geometry" />
+        </mxCell>
         <mxCell id="wbUA-NQB3ZOuAm5DLWMv-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="50" width="690" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-2" value="方法区" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-8" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="110" width="300" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-3" value="堆" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-11" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="290" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-3" value="堆" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="110" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-4" value="虚拟机栈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-2" value="方法区" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-5" value="本地方法栈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-4" value="虚拟机栈" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="430" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-5" value="本地方法栈" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="560" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-6" value="程序计数器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-6" value="程序计数器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="430" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wbUA-NQB3ZOuAm5DLWMv-7" value="运行时数据区" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="60" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-9" value="线程隔离的数据区" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="250" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-12" value="所有线程共享的数据区" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-13" value="执行引擎" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-14" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="340" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-18" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="340" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-19" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="420" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-20" value="本地库接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="425" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-23" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="457.5" y="340" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-24" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="522.5" y="340" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-25" value="本地方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wbUA-NQB3ZOuAm5DLWMv-26" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="420" width="100" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
